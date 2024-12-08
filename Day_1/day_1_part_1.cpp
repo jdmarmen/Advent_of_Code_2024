@@ -6,7 +6,7 @@
 int main()
 {
     std::ifstream file{};
-    std::string path = "/home/jdmarmen/Mis_cosas/UPV/Segundo/PRA/Advent-of-Code-2025/Day_1/day_1_puzzle";
+    std::string path = "/home/jdmarmen/Mis_cosas/UPV/Segundo/PRA/Advent_of_Code_2024/Day_1/day_1_puzzle";
     std::vector<int> left{};
     std::vector<int> right{};
 
