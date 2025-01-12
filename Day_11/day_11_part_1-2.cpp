@@ -28,6 +28,7 @@ int main(){
 
     std::cout<<blinking(75,stones)<<std::endl;
     
+    InputFiles::close_file(&file);
 
     return 0;
 }
