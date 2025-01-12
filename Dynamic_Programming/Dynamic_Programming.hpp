@@ -5,7 +5,6 @@
 
 class Dynamic_Programming{
     public:
-        //static uint64_t count (uint64_t stone, int steps,std::map<std::pair<uint64_t, int>, uint64_t>& memo);
         static uint64_t count (uint64_t stone, int steps,BSTreeDict<uint64_t>& memoDict);
 
     private:

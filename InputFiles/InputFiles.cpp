@@ -17,4 +17,19 @@ void InputFiles::close_file(std::ifstream* file){
     file->close();
 }
 
+std::string InputFiles::read_line(std::ifstream* file){
+    std::string line{};
+    std::getline(*file,line);
+    return line;
+}
+
+std::vector<std::string> InputFiles::read_lines(std::ifstream* file){
+    std::vector<std::string> lines{};
+    std::string line{};
+    while(std::getline(*file,line)){
+        lines.push_back(line);
+    }
+    return lines;
+}
+
 

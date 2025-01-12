@@ -17,6 +17,8 @@ class InputFiles{
     
     static int open_file(std::string* path,std::ifstream* file);
     static void close_file(std::ifstream* file);
+    static std::string read_line(std::ifstream* file);
+    static std::vector<std::string> read_lines(std::ifstream* file);
 
     template <typename T>
     static void read_vector_info(std::ifstream* file,std::vector<T>* vector,VectorType type){

@@ -20,5 +20,15 @@ add_executable(day_11_part_1-2
     Binary_Tree/BSTreeDict.h
     Binary_Tree/TableEntry.h
 )
+add_executable(day_19_part_1
+    Day_19/day_19_part_1.cpp
+    InputFiles/InputFiles.cpp
+    Hash_Table/hash_table.cpp
+)
+add_executable(day_5_part_1
+    Day_5/day_5_part_1.cpp
+    InputFiles/InputFiles.cpp
+    Graph/graph.cpp
+)
 
 include_directories(${CMAKE_SOURCE_DIR})
